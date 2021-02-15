@@ -1,0 +1,97 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  width: 50%;
+  margin: 0 auto 0 auto;
+  padding-top: 50px;
+}
+
+
+a {
+  color: #5b5b5b;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+
+
+p {
+  line-height: 2;
+}
+
+.pracowniaheading {
+  background-color: white;
+}
+.fotki {
+  padding: 50px;
+  background-color: #d6d2c4;
+}
+
+.fotka1 {
+  width: 25%;
+  border: solid;
+  border-width: 20px;
+  border-color: white;
+  margin: 20px;
+}
+.fotka2 {
+  width: 25%;
+  border: solid;
+  border-width: 20px;
+  border-color: white;
+  margin: 20px;
+}
+.fotka3 {
+  width: 25%;
+  border: solid;
+  border-width: 20px;
+  border-color: white;
+  margin: 20px;
+}
+.fotka4 {
+  width: 25%;
+  border: solid;
+  border-width: 20px;
+  border-color: white;
+  margin: 20px;
+}
+.fotka5 {
+  width: 25%;
+  border: solid;
+  border-width: 20px;
+  border-color: white;
+  margin: 20px;
+}
+.fotka6 {
+  width: 25%;
+  border: solid;
+  border-width: 20px;
+  border-color: white;
+  margin: 20px;
+}
+.fotka7 {
+  width: 25%;
+  border: solid;
+  border-width: 20px;
+  border-color: white;
+  margin: 20px;
+}
+.fotka8 {
+  width: 25%;
+  border: solid;
+  border-width: 20px;
+  border-color: white;
+  margin: 20px;
+}
+.fotka9 {
+  width: 25%;
+  border: solid;
+  border-width: 20px;
+  border-color: white;
+  margin: 20px;
+}

@@ -4,6 +4,13 @@
 <head>
   <meta charset="utf-8">
   <title>Sklep</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+
+
   <style>
     h1 {
       text-align: center;
@@ -25,31 +32,70 @@
     .lenkwiatki-imagebackground {
       background-image: url("Image/lenkwiatki.jpg");
       background-color: #cccccc;
-      height: 2000px;
+      height: 500px;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
       position: relative;
+    }
+.lenkwiatki-imagebackground-paragraph {
+  position: relative;top: 150px;
+
+}
+    .lenkwiatki-imagebackground-text {
+      color: #295939;
+      font-size: 5em;
     }
   </style>
 </head>
 
 <body>
 
-
-  <div class="lenkwiatki-imagebackground">
-    <div class="lenkwiatki-imagebackground-text">
-      <h1>Sklep</h1>
-      <h3>Tutaj zostało wklejone zdjęcie jako tło</h3>
+  <div class="top-icons">
+    <form class="search-formularz">
+      <div>
+        <input type="search" id="mySearch" name="q">
+        <button>Szukaj</button>
+      </div>
+    </form>
+    <div class="FB-Insta-Linki">
+      <a href="https://www.facebook.com/SkirtStory/">|FACEBOOK|</a>
+      <a href="https://www.instagram.com/skirtstory.pl/">|INSTAGRAM|</a>
     </div>
+  </div>
 
+  <div class="sekcjazlogo">
+    <img class="logoskirtstory" src="Image/logo.png" alt="logo">
+    <div class="linkizbelki">
+      <a href="Sklep.html">|SKLEP|</a>
+      <a href="Pracownia.html">|PRACOWNIA|</a>
+      <a href="Blog.html">|BLOG|</a>
+      <a href="Kontakt.html">|KONTAKT|</a>
+    </div>
+  </div>
 
+  <div class="teksty">
+    <h1>Sklep</h1>
+  </div>
+
+  <div class="ubrania">
     <img src="Image/MELODY.newsletter.jpg" alt="melody">
     <img src="Image/KOPERTOWA-BLUZKA.newsletter.jpg" alt="bluzka">
     <img src="Image/JEJ-WYSOKOSC-SMUKLOSC.newsletter.jpg" alt="spodnica">
   </div>
 
 
+  <div class="lenkwiatki-imagebackground">
+    <div class="lenkwiatki-imagebackground-paragraph">
+      <h1 class="lenkwiatki-imagebackground-text">Wyjątkowo kobiece ubrania z naturalnych tkanin</h1>
+    </div>
+  </div>
+
+  <div class="copyright">
+    <a href="https://www.facebook.com/SkirtStory/">|FACEBOOK|</a>
+    <a href="https://www.instagram.com/skirtstory.pl/">|INSTAGRAM|</a>
+    <p>COPYRIGHT: SKIRT STORY 2021</p>
+  </div>
 </body>
 
 </html>
